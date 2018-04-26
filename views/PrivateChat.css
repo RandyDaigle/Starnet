@@ -1,0 +1,179 @@
+#ChatWindow, #PrivateChat {
+	cursor:pointer;
+	background:white;
+	position:fixed;
+	bottom:0px;
+	right:20px;
+	width:250px;
+	border-radius:5px 5px 0px 0px;
+	box-shadow: 6px 6px 10px #888888;
+	}
+
+	#ChatTop {
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	background:#7f8c8d;
+	padding:11px;
+	color:white;
+	border-radius:5px 5px 0px 0px;
+	}
+
+	#PrivateTop {
+	font-size:12px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	background:#7f8c8d;
+	padding:11px;
+	color:white;
+	border-radius:5px 5px 0px 0px;
+	}
+	
+	
+	#ChatBody{
+	/*background-color:#e9ebee;*/
+	max-height:400px;
+	overflow:auto;
+	overflow-x:hidden;
+	margin-bottom:125px;
+	}
+
+	.Users{
+	text-align:left;
+	padding:5px 1px 1px 5px;
+	position:relative;
+	margin-bottom: 1px;
+	}
+
+	.Users:hover{
+	background:#ecf0f1;
+	}
+	
+	.Users:after {
+		content:"";
+		clear:both;
+		display:table;
+	}
+	
+	.Users span {
+	float:left;
+	font-size:12px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:9px;
+	margin-left:4px;
+	}
+	
+	.Users img {
+	float:left;
+	padding: 2px;
+	width:30px;
+	height:30px;
+	left:10px;
+	top:5px;
+	border-radius:50%;
+	}
+	
+	.Unread_Notification {
+	float:left;
+	position:relative;
+	font-size:12px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:white;
+	background-color: #f4a442;
+	height:17px;
+	width:18px;
+	left:10px;
+	top:-3px;
+	padding-top:2px;
+	text-align:center;
+	border-radius:50%;
+	}
+
+	.OfflineStatus {
+	float:right;
+	font-size:12px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#999999;
+	position:absolute;
+	width:14px;
+	height:7px;
+	right:26px;
+	top:2px;
+	}
+	
+	.OnlineStatus {
+	float:right;
+	content:"";
+	position:absolute;
+	background:green;
+	width:7px;
+	height:7px;
+	right:24px;
+	top:0px;
+	border-radius:5px;
+	}
+	
+	#Close {
+	float:right;
+	/*font-size:20px;*/
+	font-weight:bolder;
+
+	}
+
+	#PrivateTop{
+	background:#3498db;
+	font-weight:bold;
+	}
+
+	#PrivateBody{
+	height:250px;
+	font-size:12px;
+	overflow:auto;
+	overflow-x:hidden;
+	}
+
+	.friendMsg img {
+	float:left;
+	width:28px;
+	height:28px;
+	border-radius:50%;
+	margin-top:3px;
+	margin-right:5px;
+	}
+	
+	#MsgSend{
+	border:transparent;
+	border-top: 1px solid #ecf0f1;
+	width:100%;
+	-webkit-box-string: border-box;
+	   -moz-box-string: border-box;
+	        box-string: border-box;
+	}
+
+	.msg_sender {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	margin-top:10px;
+	margin-right: 40px;
+	margin-left:29px;
+	min-height:15px;
+	position:relative;
+	padding: 10px;
+	background: #eaecef;
+	border-radius:5px;
+	}
+
+	.msg_receiver {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:white;
+	text-align:left;
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:10px;
+	min-height:15px;
+	position:relative;
+	padding: 10px;
+	background: #4e84db;
+	border-radius:5px;
+	}

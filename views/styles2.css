@@ -1,0 +1,333 @@
+/*css for Activity 2*/
+
+#Header{
+	text-align:center;
+	width: 1000 px;
+	height: 100 px;
+	background-color: #aab0bf;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid black;
+}
+
+*{
+	font-family: Calibri, sans-serif;
+}
+
+body{
+	margin:25px 0px; 
+	padding:0px;
+	/*background: url("../views/images/star1.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+	background-color: #aab0bf;
+	text-align:center;
+}
+
+#PageWrapper{
+	width:1084px;
+	margin: 0px auto;
+	text-align: center;
+	background-color:white;
+	padding:8px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+#h1{
+	font-size: 20px;
+}
+
+#MainContent{
+	text-align: center;
+	padding-left: 175px;
+	padding-bottom: 25px;
+	padding-right: 175px;
+	padding-top:5px;
+	width : 706px;
+	
+
+}
+
+/* use for content descriptions within main body*/
+#MainContent p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Forum {
+	height:560px;
+	background-color:white;
+	margin: 0 auto;
+	overflow:auto;
+	overflow-x:hidden;
+	border: 1px solid;
+	border-radius: 2px;
+	width:94%;
+	margin-bottom:5px;
+}
+
+#Forum table {
+	width:100%;
+}
+
+#Sidebar{
+	/*float: left;*/
+	background:linear-gradient(to left, #0d4ca2 0%, #fafafa 15%);
+	background:-ms-linear-gradient(to left, #0d4ca2 0%, #fafafa 15%);
+	background:-moz-linear-gradient(to left, #0d4ca2 0%, #fafafa 15%);
+	Width: 250px;
+	height: 150px;
+}
+
+
+#Sidebar ul{	
+	list-style-type: none;
+	text-align: left;
+
+}
+
+#Sidebar ul li a{
+	text-decoration: none;
+
+}
+
+#SidebarLeft{
+	float: left;
+	margin-top:5px;
+	background-color:#EAEAEA;
+	Width: 205px;
+	height: 600px;
+	border-radius:5px 0px 0px 5px;
+ 	border: 1px solid black;
+
+}
+
+#SidebarRight{
+	overflow:auto;
+	overflow-x:hidden;
+	float: right;
+	margin-top:5px;
+	background-color:#EAEAEA;
+	Width: 205px;
+	height: 600px;
+	border-radius:0px 5px 5px 0px;
+ 	border: 1px solid black;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+#SidebarRight::-webkit-scrollbar {
+    width: 0;
+}
+
+#Forum::-webkit-scrollbar {
+    width: 0;
+}
+
+#FriendRequests span {
+	float:left;
+	font-size:14px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:9px;
+	margin-left:4px;
+}
+
+#FriendRequests img {
+	float:left;
+	padding: 2px;
+	width:30px;
+	height:30px;
+	left:10px;
+	top:5px;
+	border-radius:50%;
+}
+
+#FriendRequests #Confirmation {
+	float:left;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:3px;
+	margin-left:20px;
+	color:white;
+	font-weight:bold;
+	background-color:blueviolet;
+	border-radius:5px;
+	padding:4px;
+}
+
+#FriendRequests #Rejection {
+	float:right;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:3px;
+	margin-right:3px;
+	color:white;
+	font-weight:bold;
+	background-color:red;
+	border-radius:5px;
+	padding:4px;
+}
+
+#FriendRequests:after {
+	content:"";
+	clear:both;
+	display:table;
+}
+
+
+#SuggestedFriends span {
+	float:left;
+	font-size:14px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:9px;
+	margin-left:4px;
+}
+
+#SuggestedFriends img {
+	float:left;
+	padding: 2px;
+	width:30px;
+	height:30px;
+	left:10px;
+	top:5px;
+	border-radius:50%;
+}
+
+#SuggestedFriends input {
+	float:right;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:3px;
+	margin-right:5px;
+	color:white;
+	font-weight:bold;
+	background-color:#aab0bf;
+	border-radius:5px;
+	padding:4px;
+	
+}
+
+#SuggestedFriends:after {
+	content:"";
+	clear:both;
+	display:table;
+}
+
+#LogIn{
+	padding-top: 50px;
+}
+
+#borderlist li{
+	text-decoration: none;
+}
+
+.left{
+	text-align:left;
+}
+
+.leftpadding{
+	text-align:left;
+	padding-left: 5px;
+}
+
+.leftpadding h3{
+	text-align:center;
+}
+
+.add25{
+	padding-left: 25px;
+}
+.center{
+	text-align:center;
+}
+
+/* used in Lesson Plan to align table and set widths.*/
+#PlanTable table{
+	border-collapse: collapse;
+}
+
+#PlanTable table td{
+	border: 1px solid black;
+}
+
+#PlanTable table ol{
+	text-align:left;
+}
+
+#nodot ul{
+	padding-left: 0px;
+}
+
+#nodot li{
+	list-style-type:none;
+}
+
+#nodot li a{
+	text-decoration: none;
+	color:blue;
+}
+
+/* used for comment Table */
+
+.commentTable table{
+	border-collapse: collapse;
+}
+
+.commentTable table td{
+	border: 1px solid black;
+}
+
+/* used for Quiz Table */
+
+
+#quizTable table td{
+	border: 1px solid black;
+}
+
+#quizTable table tr{
+	height: 40px;
+	border: 1px solid black;
+}
+
+#quizTable table tr th{
+	width:200px;
+}
+
+/* used for Management screens */
+
+#drivertable{
+	text-align: center;
+}
+
+#usertable table{
+	border-collapse:collapse;
+	margin: 0 auto;
+}
+
+#usertable table thead tr {
+	background-color: #fafafa;
+}
+
+#usertable table tbody tr:nth-child(odd){
+	background-color: #eee;
+}
+
+#usertable table tbody tr:nth-child(even){
+	background-color: #fff;
+}
+
+#usertable table tr th{
+	height: 8px;
+	width: 120px;
+
+}
+#usertable table tr td{
+	border: 1px solid black;
+
+}
+
+
+
+
